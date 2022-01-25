@@ -25,6 +25,6 @@ cookies = {}
 for cook in data:
     cookies[cook["name"]]=cook["value"]
 # response = requests.post('https://api.juejin.cn/growth_api/v1/check_in', headers=headers,cookies=cookies)
-# print(response.text)
+# print(response.text)   test
 print(cookies)
 
